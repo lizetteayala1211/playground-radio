@@ -2080,13 +2080,7 @@ body {
     /* justify-content: flex-start; */
 }
 
-iframe {
-    object-fit: cover;
-}
 
-video {
-    object-fit: cover;
-}
 
 #sponsors-container {
     display: flex;
