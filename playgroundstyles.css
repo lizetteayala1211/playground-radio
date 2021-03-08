@@ -1309,8 +1309,8 @@ body {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: calc(100% - 20px);
-    height: calc(100% - 20px);
+    width: 94%;
+    height: 100vh;
     border: 3px solid white;
     margin: 20px;
     overflow-y: scroll;
