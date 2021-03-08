@@ -1,6 +1,9 @@
 const container = document.getElementById("slider");
 const images = document.getElementsByClassName("img");
 
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
 $(document).ready(function() { 
  $(".hover-background:nth-child(1)").click(function() {
          $("#bio-01").show();
