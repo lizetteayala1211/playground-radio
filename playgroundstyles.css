@@ -1474,7 +1474,7 @@ body {
 #blackboard {
     display: block;
     width: 100%;
-    height: 130vh;
+    height: 110vh;
     pointer-events: all;
     background-image: url(./assets/images/grid/grid4.png);
     background-position: 0px 0px;
