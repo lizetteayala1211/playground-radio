@@ -1468,13 +1468,13 @@ a#livestream-copy-links {
 body {
     background-color: #0066FF;
     background-image: url(./assets/images/grid/1.jpg);
-    overflow: hidden;
+    overflow: auto;
 }   
 
 #blackboard {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     pointer-events: all;
     background-image: url(./assets/images/grid/grid4.png);
     background-position: 0px 0px;
