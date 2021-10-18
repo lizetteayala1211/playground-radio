@@ -1593,7 +1593,7 @@ body {
     align-self: center;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 38vh;
+    margin-top: 36vh;
     left: 0px;
     right: 0px;
     text-align: center;
@@ -1629,7 +1629,7 @@ body {
     text-align: center;
     border-top: none;
     color: white;
-    margin-top: 42vh;
+    margin-top: 43vh;
     margin-bottom: 50px;
 }
 
@@ -1791,6 +1791,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.hover-background.hide {
+    display: none;
+    visibility: hidden;
 }
 
 .bio-img-container-10 {
