@@ -326,6 +326,65 @@ opacity:0;
     border: 1px solid white;
 }
 
+#social-medias-container {
+    width: 100%;
+    height: 95%;
+    /*background-color: yellow;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 2px solid white;
+/*    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;*/
+}
+
+#instagram-container {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    /*background-color: green;*/
+    background-image: url(./assets/images/icons/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+#twitter-container {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    /*background-color: green;*/
+    background-image: url(./assets/images/icons/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+
+#contact-container {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    /*background-color: green;*/
+    background-image: url(./assets/images/icons/contact2.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    cursor: pointer;
+}
+
+#socials-link {
+    width: 100%;
+    height: 100%;
+    color: transparent;
+/*    background-color: red;*/
+} 
+
 #mixcloud-link-container {
     width: 25%;
     margin-right: 10px;
@@ -479,16 +538,6 @@ a:hover {
     background-position: center;
 }
 
-#bio-img-16 {
-    width: 70%;
-    height: 100%;
-    border: 1px solid white;
-    background-image: url(./assets/images/archives/Chris-Moon-min.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 #musicians-list {
     width: 50%;
     overflow:scroll;
@@ -543,6 +592,8 @@ a:hover {
     font-family: "EuroStar-Regular-Extended";
     font-size: 25px;
     padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #bio-title-line {
@@ -928,6 +979,15 @@ a:hover {
     background-position: center;
 }
 
+#bio-img-38 {
+    width: 70%;
+    height: 100%;
+    border: 1px solid white;
+    background-image: url(./assets/images/IMOUL/flyers/V1_FEED_POST.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 #bio-copy {
     font-family: "EuroStar-Regular-Extended";
@@ -993,9 +1053,9 @@ a:hover {
     height: 80%;
     display: flex;
     /* background-color: yellow; */
-    color: white;  
+    color: white; 
+    overflow: scroll; 
 }
-
 
 #first-container {
     width: 25%;
@@ -1094,7 +1154,6 @@ a#livestream-copy-links {
     color: #0066FF;
 }
 
-
 #livestream-container-02 {
     width: 95%;
     height: 100%;
@@ -1187,7 +1246,6 @@ a#livestream-copy-links {
     margin-right: 20px;
     color: #0066FF;
     overflow-y: scroll;
-
 }
 
 #livestream-line-03 {
@@ -1238,7 +1296,6 @@ a#livestream-copy-links {
     margin-right: 20px;
     color: #0066FF;
     overflow-y: scroll;
-
 }
 
 #livestream-line-04 {
@@ -1278,7 +1335,6 @@ a#livestream-copy-links {
     overflow-y: scroll;
 }
 
-
 #livestream-copy-05 {
     text-align: left;
     font-family: "EuroStar-Black-Extended";
@@ -1289,7 +1345,6 @@ a#livestream-copy-links {
     margin-right: 20px;
     color: #0066FF;
     overflow-y: scroll;
-
 }
 
 #livestream-line-05 {
@@ -1340,7 +1395,6 @@ a#livestream-copy-links {
     margin-right: 20px;
     color: #0066FF;
     overflow-y: scroll;
-
 }
 
 #livestream-line-06 {
@@ -1379,7 +1433,6 @@ a#livestream-copy-links {
     background-color: white;
     overflow-y: scroll;
 }
-
 
 #livestream-copy-07 {
     text-align: left;
@@ -1431,7 +1484,6 @@ a#livestream-copy-links {
     overflow-y: scroll;
 }
 
-
 #livestream-copy-08 {
     text-align: left;
     font-family: "EuroStar-Black-Extended";
@@ -1462,8 +1514,6 @@ a#livestream-copy-links {
     width: 90%;
     height: 1px;
 }
-
-
 
 #sponsors-container {
     display: flex;
@@ -1501,6 +1551,201 @@ a#livestream-copy-links {
     background-size: 90%;
     background-repeat: no-repeat;
 }
+
+/* Unabashed Love Page */
+
+#unabashed-content-container {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+/*    background-color: yellow; */
+    overflow: scroll;
+    overflow: auto;
+    overflow-y: auto;
+    color: white;
+}
+
+#unabashed-title-content-container {
+    width: 100%;
+    height: 30%;
+    display: flex;
+/*    background-color: green; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#unabashed-flyer-container.first {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(./assets/images/IMOUL/flyers/V1_FEED_POST.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-title-container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+/*    background-color: blue; */
+    align-items: center;
+    background-image: url(./assets/images/IMOUL/titles/TITLE.png);
+    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+
+#unabashed-flyer-container.second {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(./assets/images/IMOUL/flyers/V1_FEED_POST_LINEUP.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-video-content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+/*    background-color: red;*/ 
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+#unabashed-main-video-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background-color: black; 
+    align-items: center;
+    justify-content: center;
+/*    object-fit: cover;*/
+}
+
+#unabashed-main-video-wrapper-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+/*    background-color: yellow;*/ 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+video#unabashed-main {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#unabashed-slider-container {
+    width: 95%;
+    height: 25%;
+    display: flex;
+/*    background-color: green; */
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    overflow-x: scroll;
+} 
+
+#unabashed-slider-selection-container {
+    width: 15%;
+    height: 90%;
+    display: flex;
+    background-color: black; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#unabashed-slider-selection-container.source_one {
+    background-image: url(./assets/images/IMOUL/titles/BYRELL.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-slider-selection-container.source_two {
+    background-image: url(./assets/images/IMOUL/titles/COSMO.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-slider-selection-container.source_three {
+    background-image: url(./assets/images/IMOUL/titles/CRYSCROSS.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-slider-selection-container.source_four {
+    background-image: url(./assets/images/IMOUL/titles/ELISE.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-slider-selection-container.source_five {
+    background-image: url(./assets/images/IMOUL/titles/HEIR.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-slider-selection-container.source_six {
+    background-image: url(./assets/images/IMOUL/titles/SHAYLAWZ.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#unabashed-slider-info-container {
+    width: 95%;
+    height: 20%;
+    display: flex;
+/*    background-color: yellow; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#unabashed-slider-info-selection-container {
+    width: 15%;
+    height: 100%;
+    display: flex;
+/*    background-color: black; */
+    align-items: initial;
+    justify-content: flex-start;
+    cursor: pointer;
+    color: white;
+    font-family: "EuroStar-Regular-Extended";
+    font-size: 0.775em;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
 
 /* Smartphones (portrait and landscape) ----------- */
 
@@ -2361,8 +2606,6 @@ body {
     height: 1px;
     /* justify-content: flex-start; */
 }
-
-
 
 #sponsors-container {
     display: flex;

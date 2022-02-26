@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<title>Playground Radio</title>
+<link rel="stylesheet" type="text/css" href="./playgroundstyles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./global.js"></script>
+</head>
+
+
+<body>
+
+
+<canvas id="blackboard" width="320" height="480"></canvas>
+
+<section id="opening-section">
+
+<div id="notes-container">
+
+<!-- <div id="playground-logo-container">
+	<img src="PlaygroundLogo.png" id="playground-logo-img">
+</div>
+<div id="playgroundradio-logo-container">
+	<img src="playgroundradiologo.png" id="playgroundradio-logo-img">
+</div> -->
+
+<div id="opening-text-container">
+
+	<p><span id="opening-text-bold">PLAYGROUND RADIO</span> SHOW IS AN ONLINE <br>
+	RADIO PLATFORM THAT OPERATES OUT OF <br>
+	BEDSTUY, BROOKLYN CENTERING THE <br>
+	QTPOCI COMMUNITY.</p>
+</div>
+
+<div id="main-section">
+	<div id="scrolling-navigation-container">
+		<div id="scrolling-text-container" class="blink-bg">
+			<a href="https://www.mixcloud.com/widget/follow/?u=%2Fplaygroundradiobk%2F" id="scrolling-link"><marquee behavior="scroll" direction="right" scrollamount="10"> TUNE INTO PLAYGROUND RADIO LIVE </marquee></a>
+		</div>
+		<div id="horizontal-line-container">
+			<!-- <hr id="main-horizontal-line"> -->
+			<!-- <hr id="main-horizontal-line"> -->
+			<div id="social-medias-container"> 
+				<!-- <hr id="main-horizontal-line"> -->
+				<div id="instagram-container"> <a href="https://www.instagram.com/playgroundradio/?hl=en" target="_blank" id="socials-link"> IG </a> </div>
+				<div id="twitter-container"> <a href="https://twitter.com/PGRadioBK" target="_blank" id="socials-link"> T </a> </div>
+				<div id="contact-container"> <a href="mailto:playground.radio@playgroundcoffeeshop.com" id="socials-link"> CO </a> </div>
+			</div>
+		</div>
+		<div id="mixcloud-link-container">
+			<a href="https://www.mixcloud.com/playgroundradiobk/" target="_blank" id="mixcloud-link"> MIXCLOUD </a>
+		</div>
+	</div>
+	<div id="storytelling-middle-container">
+		<div id="unabashed-content-container">
+			<div id="unabashed-title-content-container">
+				<div id="unabashed-flyer-container" class="first"></div>
+				<div id="unabashed-title-container"></div>
+				<div id="unabashed-flyer-container" class="second"></div>
+			</div>
+			<div id="unabashed-video-content-container">
+				<div id="unabashed-main-video-container">
+					<div id="unabashed-main-video-wrapper-container">
+						<video id="unabashed-main" controls>
+  							<source src="./assets/videos/IMOUL/Byrell.mp4" type="video/mp4" id="source_video">
+  						</video>
+					</div>
+				</div>
+				<div id="unabashed-slider-container">
+					<div id="unabashed-slider-selection-container" class="source_one">
+						<button onclick="myFunction1()">Change Video 1</button>
+					</div>
+					<div id="unabashed-slider-selection-container" class="source_two">
+						<button onclick="myFunction2()">Change Video 2</button>
+					</div>
+					<div id="unabashed-slider-selection-container" class="source_three">
+						<button onclick="myFunction3()">Change Video 3</button>
+					</div>
+					<div id="unabashed-slider-selection-container" class="source_four">
+						<button onclick="myFunction4()">Change Video 4</button>
+					</div>
+					<div id="unabashed-slider-selection-container" class="source_five">
+						<button onclick="myFunction5()">Change Video 5</button>
+					</div>
+					<div id="unabashed-slider-selection-container" class="source_six">
+						<button onclick="myFunction6()">Change Video 6</button>
+					</div>
+				</div>
+				<div id="unabashed-slider-info-container">
+					<div id="unabashed-slider-info-selection-container" class="source_info_one">
+						BYRELL THE GREAT <br>
+						| Feb 25th 22 | 51 min
+					</div>
+					<div id="unabashed-slider-info-selection-container" class="source_info_two">
+						COSMO <br>
+						| Feb 25th 22 | 56 min
+					</div>
+					<div id="unabashed-slider-info-selection-container" class="source_info_three">
+						CRY$CROSS <br>
+						| Feb 25th 22 | 58 min
+					</div>
+					<div id="unabashed-slider-info-selection-container" class="source_info_four">
+						ELISE <br>
+						| Feb 25th 22 | 60 min
+					</div>
+					<div id="unabashed-slider-info-selection-container" class="source_info_five">
+						H31R <br>
+						| Feb 25th 22 | 18 min
+					</div>
+					<div id="unabashed-slider-info-selection-container" class="source_info_six">
+						SHAY LAWS <br>
+						| Feb 25th 22 | 13 min
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-navigation-container">
+
+		<a href="./index.html" id="nav-link"> RADIO </a>
+<!-- 		<a href="https://www.mixcloud.com/playgroundradiobk" target="_blank" id="nav-link" class="mixcloud-link-desktop-hide"> MIXCLOUD </a> -->
+		<a href="./Archives.html" id="nav-link"> ARCHIVE </a>
+		<a href="./UnabashedLove.html" id="nav-link"> IN MIDST OF UNABASHED LOVE </a>
+		<!-- <a href="https://www.instagram.com/playgroundradio/?hl=en" target="_blank" id="nav-link"> INSTAGRAM </a> -->
+		<!-- <a href="https://twitter.com/PGRadioBK" target="_blank" id="nav-link"> TWITTER </a> -->
+		<!-- <a href="http://playgroundcoffeeshop.com/youth/" target="_blank" id="nav-link"> HISTORY </a> -->
+		<!-- <a href="mailto:playground.radio@playgroundcoffeeshop.com" id="nav-link"> CONTACT </a> -->
+<!-- 		<a href="http://playgroundcoffeeshop.com/assets/images/venmoQR.png" target="_blank" id="nav-link"> DONATE </a>
+ --><!-- 		<a href="./Storytelling.html" id="nav-link"> STORYTELLING </a> -->
+
+	</div>
+	
+</div>	
+		
+</section>
+
+
+</body>
+
+
+</html>

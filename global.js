@@ -185,100 +185,153 @@ $(document).ready(function() {
 $(document).ready(function() { 
  $(".hover-background:nth-child(24)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-30").show();
+         $("#bio-38").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(25)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-14").show();
+         $("#bio-30").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(26)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-28").show();
+         $("#bio-14").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(27)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-09").show();
+         $("#bio-28").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(28)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-32").show();
+         $("#bio-09").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(29)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-31").show();
+         $("#bio-32").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(30)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-26").show();
+         $("#bio-31").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(31)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-35").show();
+         $("#bio-26").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(32)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-01").show();
+         $("#bio-35").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(33)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-07").show();
+         $("#bio-01").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(34)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-05").show();
+         $("#bio-07").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(35)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-15").show();
+         $("#bio-05").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(36)").click(function() {
          $("#musicians-bios").children().hide();
-         $("#bio-33").show();
+         $("#bio-15").show();
    }); 
  });
 
 $(document).ready(function() { 
  $(".hover-background:nth-child(37)").click(function() {
          $("#musicians-bios").children().hide();
+         $("#bio-33").show();
+   }); 
+ });
+
+$(document).ready(function() { 
+ $(".hover-background:nth-child(38)").click(function() {
+         $("#musicians-bios").children().hide();
          $("#bio-11").show();
    }); 
  });
+
+
+function myFunction1() {
+  document.getElementById("unabashed-main").src = "./assets/videos/IMOUL/Byrell.mp4";
+//  document.getElementById("mySubtitle").src = "/Subtitle2.srt";
+  document.querySelector('video').load();
+}
+
+function myFunction2() {
+  document.getElementById("unabashed-main").src = "./assets/videos/IMOUL/Cosmo.mp4";
+//  document.getElementById("mySubtitle").src = "/Subtitle2.srt";
+  document.querySelector('video').load();
+}
+
+function myFunction3() {
+  document.getElementById("unabashed-main").src = "./assets/videos/IMOUL/Cryscross.mp4";
+//  document.getElementById("mySubtitle").src = "/Subtitle2.srt";
+  document.querySelector('video').load();
+}
+
+function myFunction4() {
+  document.getElementById("unabashed-main").src = "./assets/videos/IMOUL/Elise.mp4";
+//  document.getElementById("mySubtitle").src = "/Subtitle2.srt";
+  document.querySelector('video').load();
+}
+
+function myFunction5() {
+  document.getElementById("unabashed-main").src = "./assets/videos/IMOUL/H31r.mp4";
+//  document.getElementById("mySubtitle").src = "/Subtitle2.srt";
+  document.querySelector('video').load();
+}
+
+function myFunction6() {
+  document.getElementById("unabashed-main").src = "./assets/videos/IMOUL/ShayLaws.mp4";
+//  document.getElementById("mySubtitle").src = "/Subtitle2.srt";
+  document.querySelector('video').load();
+}
+
+
+
+
+
+
+
+
+
 
 
 
